@@ -3,13 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>301 — Alex Scotton has moved permanently</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
+      @theme {
+        --font-mono: 'IBM Plex Mono', monospace;
+      }
     </style>
   </head>
-  <body class="min-h-dvh max-w-7xl px-4 py-8 bg-slate-900 text-purple-50">
-    <h1 class="text-3xl font-bold underline">
-		Welcome to alexbarfield.com
-    </h1>
+  <body class="m-0 min-h-screen flex items-center justify-center px-6 py-12 bg-[#131a2b] font-mono text-[#c6cede]">
+    <main class="w-full max-w-[760px]">
+      <div class="inline-block border border-[#33405c] px-5 py-3.5 text-[12.5px] leading-[1.9] text-[#7d89a3] text-pretty">
+        HTTP/1.1 301 Moved Permanently<br />
+        Location: https://alexbarfield.com<br />
+        X-Formerly: https://alexscotton.com<br />
+        X-Reason: she-had-the-better-surname<br />
+        Cache-Control: max-age=315360000, immutable
+      </div>
+
+      <h1 class="text-[clamp(110px,22vw,180px)] leading-none font-semibold tracking-[-0.04em] mt-9 mb-2.5 text-[#ffb454]">301</h1>
+
+      <h2 class="text-[22px] font-semibold text-[#f0f3f9] mt-0 mb-2">Alex Scotton has moved permanently.</h2>
+
+      <p class="text-[15px] leading-[1.9] text-[#8d99b3] max-w-[56ch] m-0 text-pretty">
+        He is now <strong class="font-semibold text-[#ffb454]">Alex Barfield</strong> — same Norwich, same habit of swearing at <code class="bg-[#1c2539] px-1.5 py-px text-[#c6cede]">NaN</code>s (and now at Clankers). Fractional CTO, freelance web developer, and Organiser of Norfolk Developers &amp; the nor(DEV): conference.
+      </p>
+
+      <nav class="flex flex-wrap gap-7 mt-11 text-[13px] items-center">
+        <a href="https://github.com/Illizian" class="text-[#ffb454] no-underline border-b-[1.5px] border-[#ffb454] pb-0.5 hover:opacity-75">github/Illizian</a>
+        <a href="https://www.linkedin.com/in/alex-barfield-45778634/" class="text-[#ffb454] no-underline border-b-[1.5px] border-[#ffb454] pb-0.5 hover:opacity-75">linkedin</a>
+        <a href="https://norfolkdevelopers.com" class="text-[#ffb454] no-underline border-b-[1.5px] border-[#ffb454] pb-0.5 hover:opacity-75">nor(dev):</a>
+        <a href="mailto:hello@alexbarfield.com" class="text-[#ffb454] no-underline border-b-[1.5px] border-[#ffb454] pb-0.5 hover:opacity-75">hello@alexbarfield.com</a>
+      </nav>
+    </main>
   </body>
 </html>
